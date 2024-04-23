@@ -48,7 +48,8 @@ de beneficiários e seus documentos de um plano de saúde.
 
 #### [**http://localhost:8081/api/swagger-ui/index.html**](http://localhost:8081/api/swagger-ui/index.html)
 
-![img_2.png](img_2.png)
+![image](https://github.com/diasRibeirao/avaliacao-ekan/assets/29930488/5130221d-47b7-4013-ae78-cce8bc405746)
+
 
 ## Executando o Endpoints
 
