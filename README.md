@@ -71,7 +71,8 @@ de beneficiários e seus documentos de um plano de saúde.
 
 #### Após realizar o login, inserir o token (accessToken) na entrada de texto do modal aberto ao clicar no botão com cadeado no topo "Authorize":
 
-![img_1.png](img_1.png)
+![image](https://github.com/diasRibeirao/avaliacao-ekan/assets/29930488/e5aeb51b-3ec6-4751-ba2b-113ba63866fc)
+
 
 
 ### Tipos Documentos (Necessita Autenticacação)
