@@ -32,7 +32,7 @@ public class AuthController {
     }
 
     @PostMapping("/login")
-    @Operation(summary = "Realizar o login")
+    @Operation(summary = "Realiza o login")
     public ResponseEntity<TokenDTO> login(@Valid @RequestBody LoginDTO login) {
         log.info("Request para realizar o login: {}", login.toString());
         final var token = service.login(login.getLogin(), login.getSenha());
@@ -40,7 +40,7 @@ public class AuthController {
     }
 
     @PostMapping("/registrar")
-    @Operation(summary = "Realizar o registro de um usuário")
+    @Operation(summary = "Realiza o registro de um usuário")
     public ResponseEntity<MensagemDTO> registrar(@Valid @RequestBody UsuarioCadastrarDTO cadastrar) {
         log.info("Request para registrar um usuário: {}", cadastrar.toString());
         service.registrar(converter.parseUsuarioCadastrarDTO(cadastrar));
