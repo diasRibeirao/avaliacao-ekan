@@ -48,7 +48,7 @@ de beneficiários e seus documentos de um plano de saúde.
 
 #### [**http://localhost:8081/api/swagger-ui/index.html**](http://localhost:8081/api/swagger-ui/index.html)
 
-![img.png](img.png)
+![img_2.png](img_2.png)
 
 ## Executando o Endpoints
 
@@ -72,7 +72,16 @@ de beneficiários e seus documentos de um plano de saúde.
 
 ![img_1.png](img_1.png)
 
-### Beneficiarios (Todos Necessitam Autenticacação)
+
+### Tipos Documentos (Necessita Autenticacação)
+```bash
+  # Listar os tipos de documentos:
+  # Método: GET
+  http://localhost:8081/api/v1/tiposDocumentos
+```
+
+
+### Beneficiarios (Necessita Autenticacação)
 ```bash
   # Cadastrar um beneficiário junto com seus documentos:
   # Método: POST
